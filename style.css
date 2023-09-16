@@ -1,0 +1,77 @@
+header, footer {
+    background: #f8f8f8;
+}
+
+header {
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+    display: block;
+    z-index: 1000;
+}
+
+body {
+    background: rgb(83, 54, 110);
+    max-width: 960px;
+    color: #232323;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: rgb(142, 93, 187);
+}
+
+h1, h2 {
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* targets the entire footer */
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+}
+
+/* targets media-link class within footer */
+footer .media-link {
+    height: 45px;
+}
+
+/* targets <a> tag within footer */
+footer a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
