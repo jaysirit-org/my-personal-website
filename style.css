@@ -3,6 +3,7 @@ green 1d4b40
 dark green 203c30
 light green 328161
 tan faf7f0
+grey 7a7b76
 */
 
 .left-sidebar-header {
@@ -11,22 +12,34 @@ tan faf7f0
     width: 200px;
     position: fixed;
     top: 0;
-    left: 0;
     padding: 0.4em;
+    color: #faf7f0;
+    text-decoration: none;
 }
 
 
 ul {
     list-style-type: none;
+    padding-top: 20%;
+}
+
+ul li a {
+    color: #faf7f0;
+    text-decoration: none;
+}
+
+li {
+    padding: 5%;
+    font-size: 20px;
 }
 
 /* targets the entire footer */
 .left-sidebar-header footer {
     box-sizing: border-box;
-    box-shadow: 0 -2px 4px -2px black;
+    box-shadow: 0 -2px 4px -2px #000000;
     height: 64px;
     padding: 16px;
-    padding-bottom: 75px;
+    padding-bottom: 78px;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -53,16 +66,22 @@ html {
 main {
     margin-left: 200px;
     padding: 50px;
+    padding-top: 90px;
 }
 
 body {
     background-color: #faf7f0;
     margin: 0 auto;
-    font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+main h1 {
+    font-weight: 900;
+    color: #203c30;
+}
+
+main h2 {
     font-weight: 300;
+    color: #7a7b76;
 }
 
 h3 {
