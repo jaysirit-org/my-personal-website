@@ -1,8 +1,9 @@
 /* colors...
 green 1d4b40
-dark green 203c30
+dark green 1c4b40
+darker green 203c30
 light green 328161
-tan faf7f0
+tan faf7ee
 grey 7a7b76
 */
 
@@ -24,7 +25,7 @@ ul {
 }
 
 ul li a {
-    color: #faf7f0;
+    color: #faf7ee;
     text-decoration: none;
 }
 
@@ -70,13 +71,13 @@ main {
 }
 
 body {
-    background-color: #faf7f0;
+    background-color: #faf7ee;
     margin: 0 auto;
 }
 
 main h1 {
     font-weight: 900;
-    color: #203c30;
+    color: #1c4b40;
 }
 
 main h2 {
