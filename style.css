@@ -95,8 +95,18 @@ h3 {
 
 .postimg {
     height: 350px;
+    margin-right: 30px;
 }
 
 .projectimg {
-    height: 180px
+    height: 180px;
+    margin-right: 30px;
 }
+
+.post {
+    display: flex;
+    border: 1px solid;
+    padding: 40px;
+    margin-bottom: 30px; /*add spacing between posts */
+}
+
