@@ -24,6 +24,7 @@ ul {
 
 ul li a {
     color: #faf7ee;
+    /* removed the hyperlink text style */
     text-decoration: none;
 }
 
@@ -35,7 +36,7 @@ li {
 /* targets the entire footer */
 .left-sidebar-header footer {
     box-sizing: border-box;
-    box-shadow: 0 -2px 4px -2px #000000;
+    box-shadow: 0 -2px 7px 0px rgba(0, 0, 0, .27);
     height: 64px;
     padding: 16px;
     padding-bottom: 78px;
