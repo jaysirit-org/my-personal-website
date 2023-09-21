@@ -96,19 +96,23 @@ p {
 
 .projectimg {
     height: 175px;
-    width: 100%;
+    width: 275px;
+    margin-right: 30px;
 }
 
-.projectimg-container {
-    width: 298px;
+/*  could not figure out how to get the container to work if i had
+    different sized images. the text in the post would not align if 
+    i had different sized images T_T
+    .projectimg-container {
+    width: 298px
+    height: 175px; 
     margin-right: 30px;
-    /* hides any overflowing content */
-    overflow: hidden; 
-}
+} */
 
 .post {
     /*post text appear to the right on the img*/
     display: flex;
+    align-items: flex-start;
     /*favored over border. adds a shadow border around my posts. 
     2px shadow below. 7px blur radius, how big the shadow casted is. rgba a=27% opaque */
     box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .27);
