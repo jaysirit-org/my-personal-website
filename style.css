@@ -17,7 +17,6 @@ grey 7a7b76
     color: #faf7f0;
 }
 
-
 ul {
     list-style-type: none;
     padding-top: 20%;
@@ -80,17 +79,12 @@ main h1 {
 }
 
 main h2 {
-    font-weight: 300;
-    color: #7a7b76;
+    font-weight: bold;
+    color: #1c4b40;
 }
 
-h3 {
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+p {
+    color: #7a7b76;
 }
 
 .postimg {
@@ -104,9 +98,13 @@ h3 {
 }
 
 .post {
+    /*post text appear to the right on the img*/
     display: flex;
-    border: 1px solid;
-    padding: 40px;
-    margin-bottom: 30px; /*add spacing between posts */
+    /*favored over border. adds a shadow border around my posts. 
+    2px shadow below. 7px blur radius, how big the shadow casted is. rgba a=27% opaque */
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, .27);
+    /*spacing between post and boarder*/
+    padding: 30px;
+    /*add spacing between individual posts */
+    margin-bottom: 30px;
 }
-
