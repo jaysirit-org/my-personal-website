@@ -96,7 +96,14 @@ p {
 
 .projectimg {
     height: 175px;
+    width: 100%;
+}
+
+.projectimg-container {
+    width: 298px;
     margin-right: 30px;
+    /* hides any overflowing content */
+    overflow: hidden; 
 }
 
 .post {
