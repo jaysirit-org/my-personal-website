@@ -1,4 +1,5 @@
 # my-personal-website
+### Version 2.0 is currently being worked on.
 
 Compassionate, innovative, user-centric.
 
