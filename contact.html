@@ -42,6 +42,34 @@
     </div>
 
     <main>
+        <h1>Contact Info</h1>
+        <section class="post">
+            <p>For business inquiries, please email me at jaysirit@gmail.com</p>
+        </section>
+
+        <form action="./form-submitted.html" target="_blank">
+            <div class="contact-me">
+                <p>Send me a message below and I'll get back to you ASAP!</p>
+            </div>
+            <div class="row">
+                <div class="form-box1">
+                    <label for="name" class="form-label">Name</label>
+                    <input required type="text" placeholder="Your Name" class="form-control">
+                </div>
+                <div class="form-box1">
+                    <label for="email" class="form-label">Email</label>
+                    <input required type="text" placeholder="your.name@example.com" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-box2">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here..."
+                        required class="form-control"></textarea>
+                </div>
+                <button class="submit-button">Submit!</button>
+            </div>
+        </form>
 
     </main>
 </body>
