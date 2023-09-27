@@ -159,3 +159,21 @@ p {
     color: white;
     margin-top: 1rem;
 }
+
+/* testing media query for mobile phones */
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    .left-sidebar-header {
+        width: 100%;
+        position: relative;
+        padding: 1em;
+    }
+
+    ul {
+        padding-top: 10%;
+    }
+}
