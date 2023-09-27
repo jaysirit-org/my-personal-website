@@ -167,5 +167,11 @@ p {
         transform: scale(0.7);
         transform-origin: top left;
     }
-
+    
+    img {
+        transform: scale(0.7);
+        transform-origin: top left;
+        height: auto;
+        width: auto;
+    }
 }   
