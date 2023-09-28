@@ -163,6 +163,21 @@ p {
 /* testing media query for mobile phones */
 
 @media screen and (max-width: 768px) {
+    .left-sidebar-header {
+        display: none;
+    }
+
+    header {
+        background-color: #1c4b40;
+        color: #faf7f0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding: 0.4em;
+        text-align: center;
+        z-index: 1000;
+    }
+
     body {
         transform: scale(0.7);
         transform-origin: top left;
