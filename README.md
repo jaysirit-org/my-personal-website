@@ -9,8 +9,8 @@ Class: 2308-ACC-PT-WEB-PT-A
 Currently learning **html, css, and javascript.**
 
 Visit my website [here!](https://jaysirit-org.github.io/my-personal-website/index.html) <br>
-Here's a preview of my website v1!
+Here's a preview of my website v1! <br>
 ![alt text](https://i.imgur.com/i0dLZ3E.jpg)
 
-Here's a preview of my contact page on a mobile device! 
+Here's a preview of my contact page on a mobile device! <br>
 <img src="https://i.imgur.com/541jOZX.jpg" alt="alt text" height="600" />
