@@ -160,7 +160,7 @@ p {
     margin-top: 1rem;
 }
 
-/* testing media query for mobile phones */
+/*media query for mobile phones */
 
 @media screen and (max-width: 768px) {
     .left-sidebar-header {
@@ -172,21 +172,52 @@ p {
         color: #faf7f0;
         width: 100%;
         position: fixed;
-        top: 0;
-        padding: 0.4em;
+        padding: 1em;
         text-align: center;
-        z-index: 1000;
+    }
+
+    header a {
+        color: #faf7f0;
+        padding: 10px;
     }
 
     body {
-        transform: scale(0.7);
+        transform: scale(0.95);
         transform-origin: top left;
     }
     
-    img {
-        transform: scale(0.7);
+    .postimg {
+        transform: scale(0.8);
         transform-origin: top left;
-        height: auto;
-        width: auto;
+    }
+
+    .projectimg {
+        transform: scale(1.05);
+        transform-origin: top left;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 50px 10px;
+        padding-top: 50px;
+    }
+
+    .post{
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 23px;
+    }
+
+    .post img {
+        margin: 0 auto 0 4px;
+    }
+
+    .projectimg-container {
+        margin-bottom: 60px;
+    }
+
+    h1{
+        margin-top: 50px;
     }
 }   
