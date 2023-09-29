@@ -1,4 +1,5 @@
 # my-personal-website
+### Version 2.0 is currently being worked on.
 
 Compassionate, innovative, user-centric.
 
@@ -9,4 +10,4 @@ Currently learning **html, css, and javascript.**
 
 Visit my website [here!](https://jaysirit-org.github.io/my-personal-website/index.html) <br>
 Here's a preview of my website v1!
-![alt text](https://i.imgur.com/LGInpJf.png)
+![alt text](https://i.imgur.com/i0dLZ3E.jpg)
