@@ -13,4 +13,4 @@ Here's a preview of my website v1!
 ![alt text](https://i.imgur.com/i0dLZ3E.jpg)
 
 Here's a preview of my contact page on a mobile device! 
-![alt text](https://i.imgur.com/541jOZX.jpg)
+<img src="https://i.imgur.com/541jOZX.jpg" alt="alt text" height="600" />
