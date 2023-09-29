@@ -1,5 +1,5 @@
 # my-personal-website
-### Version 2.0 is currently being worked on.
+### Version 2.0 is completed for now! Added a contact form. Website can be viewed nicely on mobile devices now!
 
 Compassionate, innovative, user-centric.
 
